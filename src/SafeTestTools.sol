@@ -2,7 +2,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 import "forge-std/Test.sol";
-import "solady/utils/LibSort.sol";
+import "solady/src/utils/LibSort.sol";
 import "safe-contracts/GnosisSafe.sol";
 import "safe-contracts/proxies/GnosisSafeProxyFactory.sol";
 import "./CompatibilityFallbackHandler_1_3_0.sol";
